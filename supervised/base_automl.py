@@ -1451,7 +1451,7 @@ class BaseAutoML(BaseEstimator, ABC):
                     "Random Forest",
                     "LightGBM",
                     "Xgboost",
-                    "CatBoost",
+#                    "CatBoost",
                     "Neural Network",
                 ]
             if self._get_mode() == "Compete":
@@ -1462,7 +1462,7 @@ class BaseAutoML(BaseEstimator, ABC):
                     "Extra Trees",
                     "LightGBM",
                     "Xgboost",
-                    "CatBoost",
+#                    "CatBoost",
                     "Neural Network",
                     "Nearest Neighbors",
                 ]
@@ -1472,7 +1472,7 @@ class BaseAutoML(BaseEstimator, ABC):
                     "Extra Trees",
                     "LightGBM",
                     "Xgboost",
-                    "CatBoost",
+#                    "CatBoost",
                     "Neural Network",
                 ]
         else:
