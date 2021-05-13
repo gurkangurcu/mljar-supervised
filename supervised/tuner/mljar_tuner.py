@@ -19,7 +19,7 @@ from supervised.algorithms.registry import (
 
 from supervised.algorithms.xgboost import xgboost_eval_metric
 from supervised.algorithms.lightgbm import lightgbm_eval_metric
-from supervised.algorithms.catboost import catboost_eval_metric
+#from supervised.algorithms.catboost import catboost_eval_metric
 from supervised.utils.utils import dump_data
 import logging
 from supervised.utils.config import LOG_LEVEL
