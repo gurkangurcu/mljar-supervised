@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 from supervised.utils.metric import Metric
 from supervised.tuner.optuna.lightgbm import LightgbmObjective
 from supervised.tuner.optuna.xgboost import XgboostObjective
-from supervised.tuner.optuna.catboost import CatBoostObjective
+#from supervised.tuner.optuna.catboost import CatBoostObjective
 from supervised.tuner.optuna.random_forest import RandomForestObjective
 from supervised.tuner.optuna.extra_trees import ExtraTreesObjective
 from supervised.tuner.optuna.knn import KNNObjective
